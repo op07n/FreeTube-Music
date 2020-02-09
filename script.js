@@ -200,7 +200,7 @@ function setup() {
 		document.getElementById("yt-player").src = "https://www.youtube.com/embed/videoseries?list="+youtubePlaylistID+"&enablejsapi=1";
 		setUpLiterallyEverything();
 	} else if (mode == "home") {
-		$.get("homepageData",function(data) {
+		$.get("homepageData.html",function(data) {
 			document.body.innerHTML = data;
 			document.body.className = "player playerHomepage";
 			document.getElementById("mySongs").innerHTML = "";
