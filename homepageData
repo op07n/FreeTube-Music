@@ -1,0 +1,32 @@
+<div class="homepage hpTop blurple">
+	<span onclick="window.location.reload()"><i class="fa fa-compact-disc"></i> FreeTube Music</span>
+	<i class="fa fa-bars fRight" onclick="toggleMenu();"></i>
+</div>
+
+<div class="homepage hpMain">
+	<div id="myAlbums" class="collection">
+	</div>
+	<div id="mySongs" class="collection collectionActive">
+	</div>
+</div>
+
+<div class="homepage hpBottom">
+	<div class="bottomButton moveL blurple" onclick="setTab(0)" id="tabButtonL">
+		<i class="fa fa-music"></i> Songs
+	</div>
+	<div class="bottomButton" onclick="setTab(1)" id="tabButtonR">
+	  <i class="fa fa-compact-disc"></i> Albums
+	</div>
+</div>
+
+<div class="homepage menu menuHidden" id="menu">
+	<span class="menuItem" onclick="tryClipboard();"><i class="fa fa-clipboard"></i> Import from Clipboard</span>
+	<span class="menuItem" onclick="addFromClipboard(prompt('Enter the link to the song/album:'));"><i class="fa fa-link"></i> Import from Link</span>
+	<span class="menuItem" onclick="createBackup();"><i class="fa fa-save"></i> Create Library Backup</span>
+	<span class="menuItem" onclick="restoreFromBackup();"><i class="fa fa-folder-open"></i> Restore from Backup</span>
+	<span class="menuItem" onclick="debugRemoveLS();"><i class="fa fa-trash-alt"></i> Clear Library</span>
+	<hr>
+	<span class="menuItem" onclick="if(confirm('Press OK to open your email application.')){window.location='mailto:cooltomatoyt@outlook.com';}"><i class="fa fa-bug"></i> Report a Bug</span>
+	<hr>
+	<span class="menuItem">&copy; CoolTomato 2020</span>
+</div>

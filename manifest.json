@@ -1,0 +1,9 @@
+{
+  "name": "FreeTube Music",
+  "short_name": "FT Music",
+  "lang": "en-GB",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+	"permissions":["clipboardRead"]
+}
