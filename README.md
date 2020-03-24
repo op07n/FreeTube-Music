@@ -1,3 +1,5 @@
+Duplicate of https://github.com/w-henderson/FreeTube-Music
+
 ![FreeTube Music Banner](images/banner.png)
 
 # FreeTube Music
